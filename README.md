@@ -61,3 +61,19 @@ cd dana-valencia-dashboard
 install.packages(c("shiny", "shinydashboard", "leaflet", "sf", "dplyr", "plotly"))
 shiny::runApp("app.R")
 ```
+
+## 📸 Resultados y Demostración del Dashboard
+
+El Cuadro de Mando permite a los usuarios navegar entre diferentes dimensiones del desastre a través de un menú lateral interactivo.
+
+### 1. Inteligencia Geoespacial en Tiempo Real (Leaflet)
+![Mapa de Riesgo Poblacional](img/mapa_riesgo.png)
+> **Intersección de Riesgo Poblacional:** El usuario puede superponer dinámicamente las capas de peligro. En esta vista, el motor espacial ha cruzado la huella hídrica contra el tejido urbano (Spatial Join), aislando y renderizando en rojo los polígonos donde existe un riesgo directo sobre la población de Valencia y su área metropolitana.
+
+### 2. Cuantificación del Impacto Socioeconómico
+![Distribución por Actividad Económica](img/grafica_economia.png)
+> **Data Wrangling & Agregación:** Más allá del mapa, el sistema procesa los metadatos de los polígonos afectados. Aquí se visualiza la distribución neta del impacto por actividad económica, revelando que el uso "Urbano concentrado" y "Agrícola-regadío" sufren la mayor exposición, un *insight* crítico para la asignación de ayudas gubernamentales.
+
+### 3. Diagnóstico de Infraestructuras y UI Reactiva
+![Tipología de Objetos Longitudinales](img/grafica_infraestructuras.png)
+> **Paneles Condicionales y Análisis de Vulnerabilidad:** Al seleccionar el análisis de "Tipología de objetos longitudinales", el dashboard no solo genera la gráfica dinámica mostrando la prevalencia de muros y escolleras, sino que la interfaz gráfica (UI) reacciona renderizando un panel informativo lateral que explica la naturaleza técnica de cada infraestructura.
