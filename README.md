@@ -50,7 +50,7 @@ Un pipeline de datos espaciales (Spatial ETL) que ingesta capas vectoriales comp
 
 ---
 
-## 🚀 Cómo ejecutar el Dashboard en local
+##  Cómo ejecutar el Dashboard en local
 
 Para replicar el entorno de análisis y levantar la aplicación web localmente:
 
