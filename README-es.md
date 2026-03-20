@@ -62,7 +62,7 @@ install.packages(c("shiny", "shinydashboard", "leaflet", "sf", "dplyr", "plotly"
 shiny::runApp("app.R")
 ```
 
-## 📸 Resultados y Demostración del Dashboard
+## Resultados y Demostración del Dashboard
 
 El Cuadro de Mando permite a los usuarios navegar entre diferentes dimensiones del desastre a través de un menú lateral interactivo.
 
