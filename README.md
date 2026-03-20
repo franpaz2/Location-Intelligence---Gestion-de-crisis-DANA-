@@ -49,7 +49,7 @@ A spatial data pipeline (Spatial ETL) that ingests complex vector layers, reduce
 
 ---
 
-## 🚀 How to run the Dashboard locally
+## How to run the Dashboard locally
 
 To replicate the analysis environment and launch the web application locally:
 
@@ -67,7 +67,7 @@ install.packages(c("shiny", "shinydashboard", "leaflet", "sf", "dplyr", "plotly"
 shiny::runApp("app.R")
 ```
 
-## 📸 Dashboard Results & Demonstration
+## Dashboard Results & Demonstration
 
 The Dashboard allows users to navigate between different dimensions of the disaster through an interactive side menu.
 
